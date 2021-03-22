@@ -1,1 +1,2 @@
-# MyMessengerMasterClass
+# Пишем свой мессенджер на основе современных технологий![image](https://user-images.githubusercontent.com/34722284/112051897-838cd480-8b63-11eb-903a-305a3ab296a8.png)
+Здесь материалы по данному мастер классу

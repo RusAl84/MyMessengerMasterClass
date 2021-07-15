@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\obj\Debug\WindowsFormsClient.Form1.resources
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\obj\Debug\WindowsFormsClient.Properties.Resources.resources
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.GenerateResource.cache
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\bin\Debug\RestSharp.dll
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\bin\Debug\RestSharp.xml
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.CopyComplete
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\obj\Debug\WindowsFormsClient.exe
+C:\Users\user\source\repos\RusAl84\MyMessengerMasterClass\WindowsFormsClient\obj\Debug\WindowsFormsClient.pdb

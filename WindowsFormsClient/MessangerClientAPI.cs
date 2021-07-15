@@ -31,7 +31,7 @@ namespace MyMessanger_Stepik
     }
     public Message GetMessage(int MessageId)
     {
-      WebRequest request = WebRequest.Create("http://localhost:5000/api/Messanger/" + MessageId.ToString());
+      WebRequest request = WebRequest.Create("http://localhost:5000/api/mes/" + MessageId.ToString());
       request.Method = "Get";
       WebResponse response = request.GetResponse();
       string status = ((HttpWebResponse)response).StatusDescription;
@@ -56,7 +56,7 @@ namespace MyMessanger_Stepik
     {
       string ServiceUrl = "http://localhost:5000";
       var client = new RestClient(ServiceUrl);
-      var request = new RestRequest("/api/Messanger/" + MessageId.ToString(), Method.GET);
+      var request = new RestRequest("/api/mes/" + MessageId.ToString(), Method.GET);
       IRestResponse<Message> Response = client.Execute<Message>(request);
       string ResponseContent = Response.Content;
       Message deserializedMsg = JsonConvert.DeserializeObject<Message>(ResponseContent);
@@ -65,7 +65,7 @@ namespace MyMessanger_Stepik
 
     public async Task<Message> GetMessageHTTPAsync(int MessageId)
     {
-      var responseString = await client.GetStringAsync("http://localhost:5000/api/Messanger/" + MessageId.ToString());
+      var responseString = await client.GetStringAsync("http://localhost:5000/api/mes/" + MessageId.ToString());
       if (responseString != null)
       {
         Message deserializedMsg = JsonConvert.DeserializeObject<Message>(responseString);
@@ -78,7 +78,7 @@ namespace MyMessanger_Stepik
     {
       string ServiceUrl = "http://localhost:5000";
       var client = new RestClient(ServiceUrl);
-      var request = new RestRequest("/api/Messanger", Method.POST);
+      var request = new RestRequest("/api/mes", Method.POST);
       // Json to post.
       string jsonToSend = JsonConvert.SerializeObject(msg);
       request.AddParameter("application/json; charset=utf-8", jsonToSend, ParameterType.RequestBody);
@@ -107,7 +107,7 @@ namespace MyMessanger_Stepik
  
   public bool SendMessage(Message msg)
     {
-      WebRequest request = WebRequest.Create("http://localhost:5000/api/Messanger");
+      WebRequest request = WebRequest.Create("http://localhost:5000/api/mes");
       request.Method = "POST";
       //Message msg = new Message("RusAl", "Privet1100", DateTime.Now);
       string postData = JsonConvert.SerializeObject(msg);

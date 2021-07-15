@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CuspvXbyFGZXd9x+hPjdvwP4oxHVO+nEA8M0rCw4gSeBs8hTRGswWrESMjDkbDVJusrAjR/WCSQmxMEaklWgbg==",
+  "dgSpecHash": "Fy59SaflD8fAgIsebYUKpqHM5BLbNY6Uwl+HQym2CPkSfh0W0XS9pxNEJrQCdHOhwm48P3FPZkDkdCVTZyM3nA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\MesServT.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\MesServT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

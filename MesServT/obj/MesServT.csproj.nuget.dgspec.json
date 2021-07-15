@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Source\\Repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\MesServT.csproj": {}
+    "C:\\Users\\user\\source\\repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\MesServT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Source\\Repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\MesServT.csproj": {
+    "C:\\Users\\user\\source\\repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\MesServT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\MesServT.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\MesServT.csproj",
         "projectName": "MesServT",
-        "projectPath": "C:\\Users\\user\\Source\\Repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\MesServT.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\MesServT.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Source\\Repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\RusAl84\\MyMessengerMasterClass\\MesServT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

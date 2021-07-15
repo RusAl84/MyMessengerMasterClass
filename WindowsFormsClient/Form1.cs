@@ -24,11 +24,11 @@ namespace WindowsFormsClient
 
     private void SendButton_Click(object sender, EventArgs e)
     {
-      string UserName = UserNameTB.Text;
-      string Message = MessageTB.Text;
-      if ((UserName.Length > 1) && (UserName.Length > 1))
+      string userName = UserNameTB.Text;
+      string message = MessageTB.Text;
+      if ((userName.Length > 0) && (message.Length > 0))
       {
-        MyMessanger_Stepik.Message msg = new MyMessanger_Stepik.Message(UserName, Message, DateTime.Now);
+        MyMessanger_Stepik.Message msg = new MyMessanger_Stepik.Message(userName, message, DateTime.Now);
         API.SendMessageRestSharp(msg);
       }
 

@@ -18,9 +18,13 @@ namespace MesServT.Controllers
 
     // GET: api/<mesController>
     [HttpGet]
-    public IEnumerable<string> Get()
+    public string Get()
     {
-      return new string[] { "value1", "value2" };
+      Message msg = new Message("RusAl", "Privet", DateTime.UtcNow);
+      string output = JsonConvert.SerializeObject(msg);
+      Console.WriteLine(output);
+
+      return output;
     }
 
     // GET api/<Mes>/5

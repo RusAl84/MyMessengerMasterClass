@@ -10,27 +10,27 @@ namespace MesServT
     [Serializable]
     public class Message
     {
-      public string UserName { get; set; }
-      public string MessageText { get; set; }
-      public DateTime TimeStamp { get; set; }
+      public string userName { get; set; }
+      public string messageText { get; set; }
+      public DateTime timeStamp { get; set; }
 
       public Message()
       {
-        UserName = "System";
-        MessageText = "Server is running";
-        TimeStamp = DateTime.UtcNow;
+        userName = "System";
+        messageText = "Server is running";
+        timeStamp = DateTime.UtcNow;
       }
 
-      public Message(string userName, string messageText, DateTime timeStamp)
+      public Message(string _userName, string _messageText, DateTime _timeStamp)
       {
-        UserName = userName;
-        MessageText = messageText;
-        TimeStamp = timeStamp;
+        userName = _userName;
+        messageText = _messageText;
+        timeStamp = _timeStamp;
       }
 
       public override string ToString()
       {
-        string output = String.Format("{0} {1} {2}", UserName, MessageText, TimeStamp);
+        string output = String.Format("{0} {1} {2}", userName, messageText, timeStamp);
         return output;
       }
     }

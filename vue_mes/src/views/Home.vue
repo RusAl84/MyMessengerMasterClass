@@ -64,7 +64,7 @@ export default {
       } catch (e) {
         console.error(e)
       }
-    }, 100)
+    }, 1000)
   },
 
   methods: {
